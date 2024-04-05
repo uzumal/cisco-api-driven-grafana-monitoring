@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Set your Meraki API key and base URL
-api_key_devnet = os.getenv("MERAKI_DEVNET_API_KEY") # DevNet Sandbox
-api_key_user = os.getenv("MERAKI_USER_API_KEY") # DevNet Sandbox
+# api_key_devnet = os.getenv("MERAKI_DEVNET_API_KEY") # DevNet Sandbox
+# api_key_user = os.getenv("MERAKI_USER_API_KEY") # DevNet Sandbox
 api_key_launchpad = os.getenv("MERAKI_API_KEY") # Meraki Launchpad's API key
 #api_key = api_key_devnet
 #api_key = api_key_keishima
