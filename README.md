@@ -19,6 +19,7 @@ Join us in this exciting journey as we revolutionize network observability and u
   <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 49 08" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/e0a5f5a7-024a-4e95-87b4-f839f2f2eb2a">
   <img width = "400" height = "207"　alt="Screenshot 2024-04-05 at 14 49 46" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/3efcb81b-dfb3-41c8-94ca-85b77b5097e1">
   <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/93833f26-63fc-4dfb-8031-6ee842dbd0b7">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/135a1458-66c3-4732-b788-6b1bf1f02410">
 </p>
 
 ## Prerequisites
