@@ -78,11 +78,16 @@ Once you have completed these prerequisites, you'll be ready to dive into the ma
 │   ├── change_env.sh
 │   ├── run_dnacMain.sh
 │   ├── run_merakiMain.sh
+│   ├── run_teMain.sh
 │   └── run_sdwanMain.sh
+├── thousandeyes
+│   ├── teMain.py
+│   ├── teApis.py
+│   └── data_processing.py
 ├── sdwan-cml-prod
 │   ├── __pycache__
 │   ├── sdwanApis.py
-└──└── sdwanMain.py
+└── └── sdwanMain.py
 </pre>
 
 ## Environment Variables
@@ -99,4 +104,7 @@ SDWAN_HOST=
 
 # .env for Meraki
 MERAKI_API_KEY=
+
+# .env for ThousandEyes
+TE_TOKEN=
 ```
