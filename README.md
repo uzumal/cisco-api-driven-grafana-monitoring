@@ -1,3 +1,7 @@
+<img src="https://img.shields.io/badge/Cisco-1BA0D7.svg?style=popout&logo=Cisco&logoColor=white"> <img src="https://img.shields.io/badge/-Grafana-F46800.svg?logo=grafana&style=popout">
+![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=flat&logo=InfluxDB&logoColor=white)
+<img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=popout">
+
 # Cisco Api-driven Grafana Monitoring
 Unleashing the Power of Cisco Observability: API-Driven Insights on a Single Dashboard
 
