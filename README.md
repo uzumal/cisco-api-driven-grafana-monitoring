@@ -14,10 +14,10 @@ Join us in this exciting journey as we revolutionize network observability and u
 ## Preview
 
 <p align="center">
-  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 49 08" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-1">
-  <img width = "400" height = "207"　alt="Screenshot 2024-04-05 at 14 49 46" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-2">
-  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-3">
-  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-4">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 49 08" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/blob/main/images/preview-1.png?raw=true">
+  <img width = "400" height = "207"　alt="Screenshot 2024-04-05 at 14 49 46" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/blob/main/images/preview-2.png?raw=true">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/blob/main/images/preview-3.png?raw=true">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/blob/main/images/preview-4.png?raw=true">
 </p>
 
 ## Contributors
