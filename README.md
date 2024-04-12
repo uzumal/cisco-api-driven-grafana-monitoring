@@ -1,6 +1,4 @@
-<img src="https://img.shields.io/badge/Cisco-1BA0D7.svg?style=popout&logo=Cisco&logoColor=white"> <img src="https://img.shields.io/badge/-Grafana-F46800.svg?logo=grafana&style=popout">
-![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=flat&logo=InfluxDB&logoColor=white)
-<img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=popout">
+<img src="https://img.shields.io/badge/Cisco-1BA0D7.svg?style=popout&logo=Cisco&logoColor=white"> <img src="https://img.shields.io/badge/-Grafana-F46800.svg?logo=grafana&style=popout"> ![InfluxDB](https://img.shields.io/badge/InfluxDB-22ADF6?style=flat&logo=InfluxDB&logoColor=white) <img src="https://img.shields.io/badge/-Python-3776AB.svg?logo=python&style=popout"> [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/kaisero/fireREST)
 
 # Cisco Api-driven Grafana Monitoring
 Unleashing the Power of Cisco Observability: API-Driven Insights on a Single Dashboard
@@ -16,10 +14,10 @@ Join us in this exciting journey as we revolutionize network observability and u
 ## Preview
 
 <p align="center">
-  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 49 08" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/e0a5f5a7-024a-4e95-87b4-f839f2f2eb2a">
-  <img width = "400" height = "207"　alt="Screenshot 2024-04-05 at 14 49 46" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/3efcb81b-dfb3-41c8-94ca-85b77b5097e1">
-  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/93833f26-63fc-4dfb-8031-6ee842dbd0b7">
-  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/assets/52265875/135a1458-66c3-4732-b788-6b1bf1f02410">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 49 08" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-1">
+  <img width = "400" height = "207"　alt="Screenshot 2024-04-05 at 14 49 46" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-2">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-3">
+  <img width = "400" height = "207" alt="Screenshot 2024-04-05 at 14 50 01" src="https://github.com/uzumal/cisco-api-driven-grafana-monitoring/images/preview-4">
 </p>
 
 ## Contributors
