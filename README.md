@@ -50,6 +50,30 @@ Join us in this exciting journey as we revolutionize network observability and u
   </table>
 </div>
 
+## Usage
+> [!NOTE]
+> To automate the execution of the Python scripts and reflect the changes in Grafana, you can utilize the provided shell scripts in the run-script directory. Follow these steps:
+1. Open a new tmux session for each script:
+
+```console
+tmux new-session -s dnac
+tmux new-session -s meraki
+tmux new-session -s thousandeyes
+tmux new-session -s sdwan
+```
+
+2. In each tmux session, navigate to the run-script directory and execute the corresponding shell script with sudo permissions:
+
+```console
+cd run-script
+sudo ./run_dnacMain.sh
+sudo ./run_merakiMain.sh
+sudo ./run_teMain.sh
+sudo ./run_sdwanMain.sh
+```
+
+By running these shell scripts, the associated Python scripts will be automatically executed, and the collected data will be seamlessly integrated into Grafana. This streamlined approach ensures that your Grafana dashboard stays up to date with the latest information from the Cisco platforms.
+
 ## Prerequisites
 Before proceeding with the project, ensure that you have completed the following tasks:
 
@@ -135,4 +159,8 @@ MERAKI_API_KEY=
 
 # .env for ThousandEyes
 TE_TOKEN=
+
+# .env for ThousandEyes Proxy
+HTTP_PROXY=
+HTTPS_PROXY=
 ```
