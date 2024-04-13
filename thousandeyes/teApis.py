@@ -4,8 +4,12 @@ import urllib3
 from urllib3.exceptions import InsecureRequestWarning
 urllib3.disable_warnings(InsecureRequestWarning)
 import os
+from dotenv import load_dotenv
 
-# プロキシ環境変数をクリア
+# load /.env file
+load_dotenv()
+
+# clear export env
 os.environ['http_proxy'] = ''
 os.environ['https_proxy'] = ''
 
@@ -17,8 +21,8 @@ class ThousandEyesAPI:
             "Authorization": f"Bearer {bearer_token}"
         }
         self.proxies = {
-            "http": "http://proxy.esl.cisco.com:80",
-            "https": "http://proxy.esl.cisco.com:80"
+            "http": os.getenv("HTTP_PROXY", ""),
+            "https": os.getenv("HTTPS_PROXY", "")
         }
 
     def get_tests(self):
