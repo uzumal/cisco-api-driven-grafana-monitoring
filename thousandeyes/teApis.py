@@ -4,12 +4,13 @@ import urllib3
 from urllib3.exceptions import InsecureRequestWarning
 urllib3.disable_warnings(InsecureRequestWarning)
 import os
+from datetime import datetime
 from dotenv import load_dotenv
 
-# load /.env file
+# Load .env file
 load_dotenv()
 
-# clear export env
+# Clear proxy environment variables
 os.environ['http_proxy'] = ''
 os.environ['https_proxy'] = ''
 
@@ -27,7 +28,7 @@ class ThousandEyesAPI:
 
     def get_tests(self):
         url = f"{self.base_url}/tests"
-        response = requests.get(url, headers=self.headers, verify=False, proxies=self.proxies)            
+        response = requests.get(url, headers=self.headers, verify=False, proxies=self.proxies)
         if response.status_code == 200:
             return response.json()
         else:
@@ -39,4 +40,14 @@ class ThousandEyesAPI:
         response = requests.get(url, headers=self.headers, verify=False, proxies=self.proxies)
         if response.status_code != 200:
             sys.exit("Request failed: " + str(response.status_code))
-        return response.json()
+        
+        today = datetime.now().date()  # Get today's date
+        filtered_results = []
+        for result in response.json()['results']:
+            result_date = datetime.strptime(result['date'], '%Y-%m-%dT%H:%M:%SZ').date()  # Get the date of the result
+            if result_date == today:  # Add only if the result's date is today
+                filtered_results.append(result)
+        
+        response_data = response.json()
+        response_data['results'] = filtered_results  # Replace with filtered results
+        return response_data
