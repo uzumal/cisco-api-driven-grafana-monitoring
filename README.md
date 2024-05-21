@@ -105,7 +105,7 @@ Before proceeding with the project, ensure that you have completed the following
 #### Catalyst Center
 
 - [ ] Install and configure Catalyst Center VM
-- Version: 2.3.7.4
+- Version: 2.3.7.5
 
 Once you have completed these prerequisites, you'll be ready to dive into the main project!
 > [!WARNING]
